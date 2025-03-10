@@ -20,7 +20,6 @@ export default function QdhUseState() {
         parseInt(Math.random()*1000)
     ])
 
-
   return (
     <div className='alert alert-info'>
         <h2>su dung useState</h2>
