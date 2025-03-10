@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import QdhApp from './QdhApp';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const Qdhroot = ReactDOM.createRoot(document.getElementById('Qdhroot'));
+Qdhroot.render(
   <React.StrictMode>
-    <App />
+  <QdhApp/>
   </React.StrictMode>
 );
 
