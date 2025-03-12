@@ -29,7 +29,13 @@ export default function QdhUseState () {
         QdhName:"Huy quách ",
         QdhAge:20,
         // thêm vào State Qdh
-        setQdhStudenList 
+        setQdhStudenList ([
+          ...QdhStudentList,
+          QdhStudent
+        ])
+        
+        console.log("List: ",QdhStudentList);
+        
       }
    }
     return (
