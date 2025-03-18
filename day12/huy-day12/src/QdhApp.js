@@ -8,7 +8,7 @@ import Qdhgioithieu from "./Qdhgioithieu";
 import QdhSanPham from "./QdhSanPham";
 import Qdhtintuc from "./QdhTinTuc";
 import QdhLienhe from "./QdhLienHe";
-import "./Style.css";
+import "./Style.css"; 
 
 function QdhApp() {
   return (

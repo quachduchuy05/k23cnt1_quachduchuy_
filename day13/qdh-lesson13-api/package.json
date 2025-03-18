@@ -1,0 +1,18 @@
+{
+  "name": "qdh-lesson13-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch dbs.json --port 3001"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axois": "^0.0.1-security",
+    "json-server": "^1.0.0-beta.3",
+    "react-router-dom": "^7.3.0"
+  }
+}
